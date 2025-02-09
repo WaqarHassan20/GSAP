@@ -7,26 +7,24 @@
     sans-serifFFF;
 }
 body {
-  overflow-x: auto;
+  overflow-x: hidden;
   white-space: nowrap;
 }
 #page1 {
   height: 100vh;
-  width: fit-content;
-  background-color: lightskyblue;
+  background-color: darkolivegreen;
 }
 
 #page2 {
   height: 100vh;
-  width: fit-content;
+  /* width: fit-content; */
   background-color: darkslategray;
   padding: 5vw;
 }
 
 #page3 {
   height: 100vh;
-  width: fit-content;
-  background-color: lightskyblue;
+  background-color:darkorchid
 }
 
 h1 {
