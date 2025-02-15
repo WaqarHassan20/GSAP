@@ -11,11 +11,46 @@
   height: 100vh;
   width: 100%;
   background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #cursor {
+  background-color: #fff;
+  border-radius: 100%;
+  text-align: center;
+  color: black;
+  font-size: 4px;
+  font-weight: bolder;
   height: 15px;
   width: 15px;
-  border-radius: 100%;
-  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  z-index: 10;
 }
+
+#image {
+  width: 60vw;
+  height: 40vw;
+  position: relative;
+  background-color: red;
+}
+
+#image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#overlay {
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 9;
+}
+
+/* if we give the parent the position relative then the child will be in the control of parent   */
