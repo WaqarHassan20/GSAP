@@ -2,6 +2,8 @@
 // ============================= //
 // ============================= //
 
+// if we give the parent the position relative then the child will be in the control of parent   //
+
 gsap.to("#page2 h1", {
   backgroundColor: "blue", // Change background
 
