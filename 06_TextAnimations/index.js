@@ -1,11 +1,19 @@
-const headingText = document.querySelector("h2").innerText;
+function BreakTheString() {
+  let heading = document.querySelector("h2");
 
-console.log(headingText);
+  let headingText = heading.innerText;
 
-const splitText = headingText.split("");
+  let splitText = headingText.split("");
 
-console.log(splitText);
+  let clutter = "";
 
-splitText.forEach((num) => {
-  console.log(num);
-});
+  splitText.forEach((num) => {
+    clutter += `<span>${num}</span>`;
+  });
+
+  heading.innerHTML = clutter;
+
+  console.log(clutter);
+}
+
+BreakTheString();
