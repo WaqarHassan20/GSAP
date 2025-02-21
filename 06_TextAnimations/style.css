@@ -17,6 +17,12 @@ body {
 }
 
 h2 {
+  padding: 10px 30px;
   font-size: 100px;
   font-weight: bold;
+  overflow: hidden;
+}
+
+h2 span {
+  display: inline-block;
 }
