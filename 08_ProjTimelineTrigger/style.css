@@ -59,17 +59,24 @@ nav h1 i {
 
 .center {
   display: flex;
-  height: 85%;
+  height: 80%;
   width: 100%;
-  background-color: red;
+  padding: 80px;
 }
 
 .center-part1 {
+  background-color: lightblue;
   height: 100%;
-  width: 50%;
+  width: 44%;
 }
 
 .center-part2 {
+  background-color: lightcoral;
   height: 100%;
-  width: 50%;
+  width: 56%;
+}
+
+.center-part1 h1 {
+  font-size: 80px;
+  line-height: 1.2;
 }
