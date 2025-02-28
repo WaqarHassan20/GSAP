@@ -115,3 +115,15 @@ nav h1 i {
 .section1Bottom img {
   height: 60px;
 }
+
+
+/* Sectoin 2 starts from here  */
+
+.section2 .services {
+background-color: aqua;
+padding:  40px 120px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+
+}
