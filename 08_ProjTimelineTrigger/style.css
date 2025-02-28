@@ -101,7 +101,7 @@ nav h1 i {
 
 .center-part2 img {
   position: absolute;
-  height: 75%;
+  height: 65%;
   right: 7%;
 }
 
@@ -112,18 +112,80 @@ nav h1 i {
   padding: 30px 120px;
 }
 
+.section1Bottom .amazon {
+  margin-top: 22px;
+}
 .section1Bottom img {
   height: 60px;
 }
 
-
 /* Sectoin 2 starts from here  */
 
 .section2 .services {
-background-color: aqua;
-padding:  40px 120px;
-display: flex;
-align-items: center;
-justify-content: flex-start;
+  margin-top: 100px;
+  /* background-color: aqua; */
+  padding: 40px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
 
+.services h3 {
+  background-color: #9ae975;
+  padding: 3px 20px 2px 20px;
+  font-size: 55px;
+  font-weight: 500;
+  border-radius: 7px;
+}
+
+.services p {
+  margin-left: 20px;
+  width: 40%;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.container {
+  height: 86%;
+  width: 100%;
+  display: flex;
+  padding: 40px 120px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.element {
+  flex-shrink: 0;
+  background-color: whitesmoke;
+  width: 48%;
+  height: 405px;
+  box-shadow: 0px 15px 0px slategrey;
+  border-radius: 20px;
+  border: 2px grey solid;
+  padding: 60px;
+  display: flex;
+}
+
+.ele-part1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  width: 50%;
+}
+.ele-part2 {
+  height: 100%;
+  width: 50%;
+}
+
+.ele-part2 img {
+  height: 100%;
+}
+
+.ele-part2 h2 {
+  font-size: 45px;
+  font-weight: 500;
+  background-color: #9ae975;
 }
