@@ -5,6 +5,10 @@
 // if we give the parent the position relative then the child will be in the control of parent   //
 
 gsap.to("#page2 h1", {
+  // To make the animation repeat unlimited time , we always use the repeat and yoyo property together.
+  yoyo: ture, // or we can give any numeric value too
+  repeat: -1, // -1 will make it unlimited time to animate the given effect
+
   backgroundColor: "blue", // Change background
 
   height: "150px", // Increase height
