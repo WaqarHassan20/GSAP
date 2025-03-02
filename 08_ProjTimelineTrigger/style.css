@@ -23,7 +23,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 100px;
+  padding: 24px 100px 30px 100px;
   /* background-color: darkgoldenrod; */
 }
 
@@ -31,25 +31,25 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 70px;
+  gap: 60px;
 }
 
 nav h1 {
-  font-size: 55px;
+  font-size: 44px;
 }
 
 nav h4 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
 }
 
 nav button {
   border: 1px solid #000;
-  padding: 22px 40px;
+  padding: 18px 30px;
   background-color: transparent;
   border-radius: 10px;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 nav h1 i {
@@ -59,8 +59,9 @@ nav h1 i {
 }
 
 .center {
+  /* background-color: antiquewhite; */
   display: flex;
-  height: 80%;
+  height: 73%;
   width: 100%;
   padding: 70px 115px;
 }
@@ -78,12 +79,12 @@ nav h1 i {
 }
 
 .center-part1 h1 {
-  font-size: 80px;
+  font-size: 60px;
   line-height: 1.2;
 }
 
 .center-part1 p {
-  font-size: 30px;
+  font-size: 20px;
   width: 95%;
   margin-top: 50px;
   margin-bottom: 35px;
@@ -93,19 +94,20 @@ nav h1 i {
   background-color: #111;
   color: #fff;
   border-radius: 10px;
-  padding: 25px 40px;
-  font-size: 25px;
+  padding: 20px 30px;
+  font-size: 22px;
   font-weight: 600;
   border: none;
 }
 
 .center-part2 img {
   position: absolute;
-  height: 65%;
-  right: 7%;
+  height: 60%;
+  right: 8%;
 }
 
 .section1Bottom {
+  /* background:#9ae975; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -116,7 +118,7 @@ nav h1 i {
   margin-top: 22px;
 }
 .section1Bottom img {
-  height: 60px;
+  height: 48px;
 }
 
 /* Sectoin 2 starts from here  */
@@ -133,20 +135,21 @@ nav h1 i {
 
 .services h3 {
   background-color: #9ae975;
-  padding: 3px 20px 2px 20px;
-  font-size: 55px;
+  padding: 3px 15px 4px 15px;
+  font-size: 28px;
   font-weight: 500;
-  border-radius: 7px;
+  border-radius: 5px;
 }
 
 .services p {
   margin-left: 20px;
   width: 40%;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 400px;
 }
 
 .container {
+  /* background-color: #9ae975; */
   height: 86%;
   width: 100%;
   display: flex;
@@ -159,12 +162,12 @@ nav h1 i {
   flex-shrink: 0;
   background-color: whitesmoke;
   width: 48%;
-  height: 405px;
-  box-shadow: 0px 15px 0px slategrey;
+  height: 42%;
   border-radius: 20px;
   border: 2px grey solid;
-  padding: 60px;
+  padding: 35px 40px;
   display: flex;
+  justify-content: space-between;
 }
 
 .ele-part1 {
@@ -181,11 +184,65 @@ nav h1 i {
 }
 
 .ele-part2 img {
-  height: 100%;
+  height: 200px;
+  margin-left: 60px;
 }
 
-.ele-part2 h2 {
-  font-size: 45px;
+.ele-part1 h2 {
+  font-size: 27px;
+  width: 80%;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.ele-part1 h4 {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
   font-weight: 500;
+  gap: 10px;
+}
+
+.ele-part1 h4 i {
+  font-weight: 900;
+  padding: 8px;
+  background-color: #111;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.line1 {
+  box-shadow: 0px 8px 0px #111;
+}
+
+.line2 {
+  box-shadow: 0px 8px 0px #111;
+}
+
+.line1 h2 {
   background-color: #9ae975;
+}
+
+.line2 h2 {
+  background-color: #9ae975;
+}
+
+.black {
+  box-shadow: 0px 8px 0px #9ae975;
+  background-color: #111;
+}
+
+.black h2 {
+  background-color: whitesmoke;
+}
+
+.black h4 {
+  color: #fff;
+}
+
+.black h4 i {
+  color: #111;
+  background-color: whitesmoke;
 }
