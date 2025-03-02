@@ -12,6 +12,9 @@ body {
 }
 
 #string {
-  height: 200px;
-  width: 100%;
+  background-color: darkgreen;
+  height: 330px;
+  width: 54%;
+  border-radius: 20px;
+  margin: 30px 50px;
 }
