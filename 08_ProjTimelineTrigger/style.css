@@ -23,7 +23,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 100px 30px 100px;
+  padding: 40px 100px 30px 100px;
   /* background-color: darkgoldenrod; */
 }
 
@@ -67,6 +67,7 @@ nav h1 i {
 }
 
 .center-part1 {
+  padding-top: 30px;
   /* background-color: lightblue; */
   height: 100%;
   width: 44%;
@@ -79,7 +80,7 @@ nav h1 i {
 }
 
 .center-part1 h1 {
-  font-size: 60px;
+  font-size: 70px;
   line-height: 1.2;
 }
 
@@ -166,6 +167,7 @@ nav h1 i {
   border-radius: 20px;
   border: 2px grey solid;
   padding: 35px 40px;
+  margin: 30px 0px;
   display: flex;
   justify-content: space-between;
 }
