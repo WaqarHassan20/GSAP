@@ -1,11 +1,9 @@
-import Index from "./components";
-import UseRefGSAP from "./components/UseRefGSAP";
+import ButtonAnimate from "./components/ButtonAnimate";
 
 function App() {
   return (
     <>
-        {/* <UseRefGSAP /> */}
-        <Index />
+      <ButtonAnimate />
     </>
   );
 }
