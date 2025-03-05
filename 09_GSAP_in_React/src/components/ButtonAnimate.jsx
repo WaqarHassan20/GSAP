@@ -22,7 +22,7 @@ function ButtonAnimate() {
 
   return (
     <>
-      <main className="h-screen w-screen bg-black flex flex-col justify-evenly items-center">
+      <main className="h-screen w-screen bg-white flex flex-col justify-evenly items-center">
         <button
           onClick={handleRandom}
           className="bg-linear-180 from-teal-900 to-teal-700 hover:scale-110 active:scale-125 transform transition-transform duration-500 text-white font-bold text-lg px-16 py-3 rounded-full"

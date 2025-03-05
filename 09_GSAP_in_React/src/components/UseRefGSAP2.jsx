@@ -49,7 +49,7 @@ function Index() {
 
   return (
     <>
-      <main className="h-screen w-screen bg-black flex justify-between items-center">
+      <main className="h-screen w-screen p-28  bg-gray-800 flex justify-between items-center">
         <div className="border-2 border-white flex flex-col gap-44">
           <div
             ref={circleRef1}
